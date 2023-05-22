@@ -2,6 +2,8 @@ module github.com/rancher/dynamiclistener
 
 go 1.20
 
+replace github.com/rancher/wrangler => github.com/rayandas/wrangler v1.27-rancher1
+
 require (
 	github.com/rancher/wrangler v1.1.1
 	github.com/sirupsen/logrus v1.9.2
